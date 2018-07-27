@@ -1,0 +1,173 @@
+
+<!--
+  - A linha abaixo é apenas uma instrução para o navegador da web.
+  - Ela especifica qual versão do HTML da página (HTML5).
+  - Não é uma tag HTML
+-->
+<!doctype html>
+
+<!--
+  - html é o elemento raiz.
+  - o atributo lang é necessario para que user-agents (*) saibam qual a linguagem principal do documento. 
+  - (*)In computing, a user agent is software (a software agent) that is acting on behalf of a user. One common use of the term refers to a web browser telling a website information about the browser and operating system. 
+-->
+<html lang="pt-br">
+<head>
+
+  <!-- METADADOS são informações sobre a página e o conteúdo ali publicado -->
+  <meta charset="utf-8">
+  <meta name="description" content="Descrição de até 150 caracteres, mostrada na busca do google por exemplo.">
+  <meta name="author" content="NomeDoDesenvolvedor">
+  <!-- o viewport nao vai encolher para caber e vai iniciar com a escala padrão de 100% ou 1 -->
+  <meta name="viewport" content="width = device-width, initial-scale=1, shrink-to-fit=no"> 
+
+  <!-- LINKS EXTERNOS DE ARQUIVOS CSS ou JS -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+
+  <!-- TITULO DA PAGINA  -->
+  <title>Site de boas referências HTML, CSS e Javascript!</title>
+</head>
+ 
+<body>
+
+
+
+  <div class="container-fluid bg-dark text-light py-5">
+
+    <!-- Componente jumbotron para chamar a atenção -->
+    <div class="container">
+      <div class="jumbotron text-dark text-center mb-5">
+        <h1 class="display-4">Site de referências</h1>
+        <p class="lead">Esse site é um guia de referencias para quem está adentrando no universo de desenvolvimento web, ele te dá apenas o pontapé inicial, aproveite =).</p>
+        <hr class="my-4">
+        <p>Esse site foi desenvolvido utilizando o bootstrap4, leia a documentação clicando no link abaixo.</p>
+        <a class="btn btn-dark btn-lg" href="https://getbootstrap.com/" role="button">Site Bootstrap4</a>
+      </div>
+    </div>
+
+    <!-- Seção para referências para futuros estudos -->
+    <section class="referencias pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12  ">
+            <h1 class="text-center py-3">Referências HTML</h1>
+            <ul class="list-group ">
+              <li class="list-group-item list-group-item-dark text-light"><h5>Estudos</h5></li>
+              <li class="list-group-item"><a target="_BLANK" href="https://www.w3schools.com/html/default.asp">Material do W3Schools sobre HTML/HTML5</a></li>
+              <li class="list-group-item"><a target="_BLANK" href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">Documentação HTML do Mozilla</a></li>
+              <li class="list-group-item"><a target="_BLANK" href="https://www.udemy.com/courses/search/?q=html&src=ukw">Cursos da Udemy de HTML</a></li>
+              <li class="list-group-item"><a target="_BLANK" href="http://www.w3c.br/pub/Cursos/CursoHTML5/html5-web.pdf">Documentação HTML5 do W3C</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-12  ">
+            <h1 class="text-center py-3">Referências CSS</h1>
+            <ul class="list-group ">
+              <li class="list-group-item list-group-item-dark text-light"><h5>Estudos</h5></li>
+              <li class="list-group-item"><a target="_BLANK" href="https://www.w3schools.com/css/default.asp">Material do W3Schools sobre CSS</a></li>
+              <li class="list-group-item"><a target="_BLANK" href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">Documentação CSS do Mozilla</a></li>
+              <li class="list-group-item"><a target="_BLANK" href="https://www.udemy.com/courses/search/?q=css&src=ukw">Cursos da Udemy de CSS</a></li>
+              <li class="list-group-item"><a target="_BLANK" href="http://www.w3c.br/pub/Cursos/CursoCSS3/css-web.pdf">Documentação CSS3 do W3C</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-12 ">
+            <h1 class="text-center py-3">Referências JS</h1>
+            <ul class="list-group ">
+              <li class="list-group-item list-group-item-dark text-light"><h5>Estudos</h5></li>
+              <li class="list-group-item"><a target="_BLANK" href="https://www.w3schools.com/js/default.asp">Material do W3Schools sobre JS</a></li>
+              <li class="list-group-item"><a target="_BLANK" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">Documentação Javascript do Mozilla</a></li>
+              <li class="list-group-item"><a target="_BLANK" href="https://www.udemy.com/courses/search/?q=javascript&src=ukw">Cursos da Udemy de Javascript</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="container-fluid bg-light">
+    <section class="templateBasico py-5">
+      <div class="container">
+        <div class="row">
+        	<div class="col-12">
+        		<h1 class="display-3 text-center py-5">Este é o template Básico HTML5 <hr></h1>
+
+           <a href="imgs/htmlBasico.png " download><img src="imgs/htmlBasico.png"  class="img-fluid"  alt=""></a>	
+         </div>
+       </div>
+     </div>
+   </section>
+ </div>
+
+
+    <section class="templateExplicado my-5">
+      <div class="container">
+        <div class="row">
+        	<div class="col-12">
+        		<h1 class="display-3 text-center py-5">Este é o template explicado <hr></h1>
+          	
+          	<a href="imgs/htmlExplicado.png" download><img src="imgs/htmlExplicado.png"  class="img-fluid"  alt=""></a>	
+        	</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container-fluid bg-light">
+        <section class="templateBootstrap py-5">
+          <div class="container">
+            <div class="row">
+             <div class="col-12">
+              <h1 class="display-3 text-center py-5">Este é o template Bootstrap <hr></h1>
+              <a href="imgs/HTMLBOOTSTRAP.png" download><img src="imgs/HTMLBOOTSTRAP.png"  class="img-fluid"  alt=""></a>		
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+ 
+
+    <footer class="bg-dark text-light py-5 ">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-12 text-center"> <h5>Desenvolvido por Fabrício Fernandes Ziliotti - <span id="anoAtualDoSite"></span> </h5></div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-center text-white py-3">
+            <a target="NO_BLANK" class="mx-2 btn btn-info" href="https://www.linkedin.com/in/fabricioziliotti/">Linkedin</a>
+            <a target="NO_BLANK" class="mx-2 btn btn-info" href="https://github.com/Fziliotti">GitHub</a>
+            <a target="NO_BLANK" class="mx-2 btn btn-info" href="http://fziliotti.esy.es/">Site Pessoal</a>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+
+
+
+
+  
+
+ 
+
+
+
+
+  <!-- DEPENDENCIAS DO "bootstrap.js" -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script>
+
+  <!-- Arquivo javascript principal -->
+  <script src="./js/bootstrap.js"></script>
+   <script> 
+    let data = new Date();
+    let ano = data.getFullYear();
+    document.getElementById("anoAtualDoSite").innerHTML = ano ;
+  </script>
+</body>
+</html>
