@@ -6,3 +6,26 @@
 	}
 }
 
+
+.img-template{
+	filter: grayscale(0.2);
+	opacity: 0.8;
+	transition: all 0.6s;
+}
+
+.img-template:hover{
+opacity: 1;
+filter: grayscale(0);
+}
+
+
+.linkCodepen{
+	display: block;
+	font-size: 2rem;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.linkCodepen:hover{
+	text-decoration: none;
+}
